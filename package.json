@@ -1,0 +1,12 @@
+{
+  "name": "basic-node-api",
+  "version": "0.0.1",
+  "scripts": {
+    "start:js": "node src/index.js",
+    "start:ts": "node start.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.16",
+    "esbuild": "^0.14.12"
+  }
+}

@@ -1,0 +1,20 @@
+[Host]
+http://localhost:8080/test
+
+[Backend]
+curl
+
+[Headers]
+Content-Type: application/json
+
+[BackendOptions]
+-sS
+
+[Method]
+POST
+
+[Body]
+{
+  "title": "Title here",
+  "text": "Text here"
+}
