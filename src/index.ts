@@ -23,7 +23,7 @@ app.post("/test", async (req: IncomingMessage, res: ServerResponse) => {
 
     console.info(json)
 
-    // Product json
+    // Produce json
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(JSON.stringify({ hello: "World" }));
 })
