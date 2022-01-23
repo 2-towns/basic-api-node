@@ -4,6 +4,11 @@ Ce repository contient les fichiers pour l'article sur [codons.blog](https://cod
 
 # Commandes 
 
+Pour installer les dépendances:
+```sh  
+npm install
+```
+
 Pour démarrer le serveur en utilisant Javascript: 
 ```sh  
 npm run start:js

@@ -19,7 +19,7 @@ const watch = {
                 child.kill('SIGINT');
             }
 
-            child = childProcess.fork(cwd + "/dist/index.js", [...childProcessArgv, "--enable-source-maps"]);
+            child = childProcess.fork(cwd + "/dist/index.js", [...childProcessArgv]);
         }
     },
 }
